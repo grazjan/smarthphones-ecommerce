@@ -3,7 +3,8 @@ import { createTheme } from '@mui/material'
 /* Colors */
 const colors = {
     primary: '#ff3838',
-    secondary: '#ff9f1a',
+    secondary: '#3498db',
+    grey: "#ecf0f1",
     text: {
         primary: '#2d3436',
         icon: '#2d3436' 
@@ -17,6 +18,9 @@ export const theme = createTheme({
         },
         secondary: {
             main: colors.secondary
+        },
+        grey: {
+            main: colors.grey
         },
         text: {
             primary: colors.text.primary,
